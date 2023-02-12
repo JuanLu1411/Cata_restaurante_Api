@@ -1,0 +1,169 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+   width: 1200px;
+   margin: 100px auto;
+}
+
+.title {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.title h4 {
+   text-transform: capitalize;
+   font-size: 36px;
+   position: relative;
+   display: inline-block;
+   padding-bottom: 20px;
+}
+
+.title h4 span {
+   display: block;
+   margin-bottom: -15px;
+   font-size: 50px;
+   font-style: italic;
+   display: block;
+}
+
+
+.title h4:before {
+   width: 320px;
+   height: 2px;
+   content: "";
+   background-color: #ff7720;
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   transform: translateX(-50%);
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.menu-simple {
+   flex-basis: 580px;
+   margin-bottom: 40px;
+   padding-bottom: 40px;
+}
+
+.menu-simple:nth-child(5),
+.menu-simple:nth-child(6) {
+   border-bottom: 0;
+}
+
+.menu-simple {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.menu-simple:hover img {
+   border-radius: 0;
+}
+
+.menu-simple img {
+   max-width: 180px;
+   margin-right: 30px;
+   border-radius: 50px;
+   border: 1px solid #ddd;
+   padding: 3px;
+   transition: .5s;
+}
+
+.menu-simple h4 {
+   text-transform: capitalize;
+   font-size: 22px;
+   border-bottom: 1px dashed #333;
+   margin-bottom: 5px;
+   padding-bottom: 5px;
+   width: 342px;
+}
+
+.menu-simple span {
+   position: relative;
+   float: right;
+   color: #ff7720;
+   font-style: italic;
+   top: -33px;
+   font-size: 20px;
+   left: -25px;
+}
+
+.botones-filtro {
+   text-align: center;
+   word-spacing: 80px;
+
+   padding-bottom: 60px;
+}
+
+h1{
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+#Beganos {
+   border: 2px solid #333;
+   background-color: white;
+   padding: 10px;
+   border-radius: 50px;
+   border-color: #ff7720;
+}
+
+#Beganos:hover {
+   background-color: #ff7720;
+   color: white;
+}
+
+
+#Celiacos {
+   border: 2px solid #333;
+   background-color: white;
+   padding: 10px;
+   border-radius: 50px;
+   border-color: #ff7720;
+}
+
+#Celiacos:hover {
+   background-color: #ff7720;
+   color: white;
+}
+
+#Niño {
+   border: 2px solid #333;
+   background-color: white;
+   padding: 10px;
+   border-radius: 50px;
+   border-color: #ff7720;
+}
+
+#Niño:hover {
+   background-color: #ff7720;
+   color: white;
+}
+
+#Italiano {
+   border: 2px solid #333;
+   background-color: white;
+   padding: 10px;
+   border-radius: 50px;
+   border-color: #ff7720;
+}
+
+#Italiano:hover {
+   background-color: #ff7720;
+   color:white;
+}
